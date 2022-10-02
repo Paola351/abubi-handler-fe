@@ -195,7 +195,7 @@ const data =
   // x scale:
   const x = d3.scaleLinear().domain([-1, xRange.length]).range([0, chartWidth])
   // y scale:
-  const y = d3.scaleLinear().domain([0, max]).range([chartHeight, 0]) 
+  const y = d3.scaleLinear().domain([0, max+5]).range([chartHeight, 0]) 
 
   // svg chart:
   const svgchart = d3.select('#svgchart') // select the svg element
