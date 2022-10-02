@@ -10,7 +10,7 @@ function getMonthName(month) {
   return months[month]
 }
 
-const url = "http://10.186.72.247:9090/abubi/"
+const url = "http://localhost:9090/abubi/"
 // $.getJSON(url, (data, textStatus) => {
  
 // TEST DATA:
